@@ -101,6 +101,7 @@ android_library {
 
 android_app {
     name: "Bluetooth",
+    system_ext_specific: true,
 
     platform_apis: true,
     certificate: "platform",
